@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc521b6e-1a43-4487-a5ff-c1ccef7dc661" name="Default Changelist" comment="" />
+    <list default="true" id="bc521b6e-1a43-4487-a5ff-c1ccef7dc661" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/GameDriver/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/Library/Bomb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/Library/TimeChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/CheckSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/ProduceBombs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/SmartSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/GameDriver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameDriver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/TimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/TimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/CheckSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/CheckSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/GameSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/ProduceBombs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ProduceBombs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/SmartSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/SmartSquare.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UserInterface/SmartSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="198">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameSquare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,9 @@
     <findStrings>
       <find>flag</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,22 +87,30 @@
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/library/Bomb.java" />
         <option value="$PROJECT_DIR$/src/CheckSquare.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/CheckSquare.java" />
-        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameSquare.java" />
-        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/GameDriver/Driver.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/Bomb.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/ProduceBombs.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/TimeChecker.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/SmartSquare.java" />
-        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/Menu.java" />
+        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/GameDriver/Driver.java" />
         <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/CheckSquare.java" />
+        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/Menu.java" />
+        <option value="$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface/ProduceBombs.java" />
+        <option value="$PROJECT_DIR$/src/GameDriver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/Library/Bomb.java" />
+        <option value="$PROJECT_DIR$/src/Library/TimeChecker.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface/CheckSquare.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface/Menu.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface/SmartSquare.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="83" />
-    <option name="width" value="1793" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3864" />
+    <option name="height" value="2114" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -105,19 +128,17 @@
             <path>
               <item name="minesweeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minesweeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="minesweeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="minesweeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="minesweeper" type="462c0819:PsiDirectoryNode" />
               <item name="UserInterface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -130,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553183621874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562516467036" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -167,7 +188,7 @@
       </method>
     </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.lancs.CNSCC212.minesweeper.GameDriver.Driver" />
+      <option name="MAIN_CLASS_NAME" value="GameDriver.Driver" />
       <module name="minesweeper" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,7 +202,7 @@
       </method>
     </configuration>
     <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.lancs.CNSCC212.minesweeper.UserInterface.Menu" />
+      <option name="MAIN_CLASS_NAME" value="UserInterface.Menu" />
       <module name="minesweeper" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +253,12 @@
       <workItem from="1553695183249" duration="281000" />
       <workItem from="1553695495937" duration="2921000" />
       <workItem from="1556351612322" duration="741000" />
+      <workItem from="1562503627758" duration="4305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125401000" />
+    <option name="totallyTimeSpent" value="129706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +270,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="0" width="1793" height="1047" extended-state="0" />
+    <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25678015" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11802974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4171181" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.52274835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,27 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/GameDriver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/TimeChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/Library/Bomb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -418,59 +419,78 @@
     <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/CheckSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/GameSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/SmartSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4422">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/ProduceBombs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4862">
-          <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uk/ac/lancs/CNSCC212/minesweeper/UserInterface/GameSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="22">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameDriver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/Bomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/TimeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/CheckSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/ProduceBombs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface/SmartSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
