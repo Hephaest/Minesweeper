@@ -75,9 +75,9 @@ public class CheckSquare
             {
                 if (currentX == x && currentY == y){}
                 else if (((SmartSquare) board.getSquareAt(x, y)).getBombExist())
-                    board.getSquareAt(x, y).setImage("images/bomb.png");
+                    board.getSquareAt(x, y).setImage(CheckSquare.class.getResource("/bomb.png"));
                 else if(((SmartSquare) board.getSquareAt(x, y)).getGuessThisSquareIsBomb())
-                    board.getSquareAt(x, y).setImage("images/flagWrong.png"); // Wrong guess!
+                    board.getSquareAt(x, y).setImage(CheckSquare.class.getResource("/flagWrong.png")); // Wrong guess!
             }
         }
     }
@@ -132,10 +132,10 @@ public class CheckSquare
          * squares and invoke itself to find the bombs again.
          */
         if (count != 0)
-            currentObject.setImage("images/" + count + ".png");
+            currentObject.setImage(CheckSquare.class.getResource( "/" + count + ".png"));
         else {
             // Paint current square as blank.
-            currentObject.setImage("images/0.png");
+            currentObject.setImage(CheckSquare.class.getResource("/0.png"));
             countBomb(currentX - 1, currentY -1); // Upper left
             countBomb(currentX, currentY -1); // Above
             countBomb(currentX + 1, currentY -1); // Upper right

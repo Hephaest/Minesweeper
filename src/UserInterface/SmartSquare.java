@@ -44,7 +44,7 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 	public SmartSquare(int x, int y, GameBoard board)
 	{
 		// Paint this square as gray block when initialization.
-		super(x, y, "images/block.png", board);
+		super(x, y, SmartSquare.class.getResource("/block.png"), board);
 
 		// Assign coordinates to this square.
 		xLocation = x;
@@ -140,11 +140,11 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 			 * If this square contains a bomb, show the bomb image.
 			 * Then display the selection window
 			 */
-			setImage("images/bombReveal.png");
+			setImage(SmartSquare.class.getResource("/bombReveal.png"));
 			long costTime = System.currentTimeMillis() - ((SmartSquare) board.getSquareAt(0, 0)).getStartTime();
 			cq.showBomb(xLocation, yLocation);
 			window("You used " + TimeChecker.calculateTime(costTime) +". Do you want to try again?", "Game Over",
-					new ImageIcon("images/failFace.png"));
+					new ImageIcon(SmartSquare.class.getResource("/failFace.png")));
 		} else{
 			thisSquareHasTraversed = false;
 			/*
@@ -160,7 +160,7 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 				cq.showBomb(xLocation, yLocation);
 				window("You win this game in " + TimeChecker.calculateTime(costTime) +
                         "! Do you want to try again?","Congratulations",
-						new ImageIcon("images/passFace.jpg"));
+						new ImageIcon(SmartSquare.class.getResource("/passFace.jpg")));
 			}
 		}
 	}
@@ -179,7 +179,7 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 
 		if (choose == JOptionPane.YES_OPTION)
 		{
-			Menu menu = new Menu("Mine sweeper");
+			new Menu("Mine sweeper");
 		}
 
 		// Close this window after user making a choice
@@ -201,14 +201,14 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 			// Show red flag.
 			if (clickCount == 1)
 			{
-				setImage("images/redFlag.png");
+				setImage(SmartSquare.class.getResource("/redFlag.png"));
 				guessThisSquareIsBomb = true;
 			}
 
 			// Show question mark.
 			if (clickCount == 2)
 			{
-				setImage("images/questionMark.png");
+				setImage(SmartSquare.class.getResource("/questionMark.png"));
 				guessThisSquareIsBomb = false;
 			}
 		}
