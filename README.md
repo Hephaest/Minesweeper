@@ -145,7 +145,7 @@ public interface TimeChecker
 }
 ```
 # User Interface
-The following UML diagram could help you easier to understand the following classes:
+The following UML diagram could help you easier to understand relationships between the following classes:
 
 <p align="center"><img src ="images/bluejScreenshot.png" width = "600px"></p>
 
