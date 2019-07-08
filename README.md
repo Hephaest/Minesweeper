@@ -8,7 +8,7 @@ Table of Contents
    * [User Interface](#user-interface)
       * [Menu](#menu)
       * [Board](#board)
-      * [Sequares](#sequares)
+      * [Squares](#squares)
       * [Bombs](#bombs)
    * [Download](#download)
    
@@ -473,7 +473,7 @@ public class GameBoard extends JFrame implements ActionListener
 	}
 }
 ```
-## Sequares
+## Squares
 The abstract class `GameSquare` only provides fundamental methods. 
 
 The code is shown as follows:
