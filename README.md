@@ -10,4 +10,4 @@
 English | [中文](README_CN.md)
 
 # Download
-**For Windows 64-bit**
+**For Windows 64-bit**: [Dowload here](https://github.com/Hephaest/Minesweeper/blob/master/download/Minesweeper_64-bit_Windows_Setup.exe).
