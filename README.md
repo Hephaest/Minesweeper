@@ -1,3 +1,17 @@
+Table of Contents
+=================
+
+   * [Minesweeper Demo](#minesweeper-demo)
+   * [Minesweeper](#minesweeper)
+   * [Game Driver](#game-driver)
+   * [Library](#library)
+   * [User Interface](#user-interface)
+      * [GameMenu](#gamemenu)
+      * [Game Board](#game-board)
+      * [Game Sequares](#game-sequares)
+      * [Bombs](#bombs)
+   * [Download](#download)
+   
 # Minesweeper Demo
 
 <p align="center"><img src ="images/minesweeper.gif" width = "600px"></p>
