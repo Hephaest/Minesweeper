@@ -24,7 +24,7 @@ Table of Contents
 
 English | [中文](README_CN.md)
 
-Last updated on `2019/07/06`
+Last updated on `2019/07/08`
 
 The minesweeper has following **functionalities**：
 1. Displays an image of a bomb if that square has a bomb on it. 
