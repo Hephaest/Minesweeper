@@ -10,4 +10,4 @@
 English | [中文](README_CN.md)
 
 # Download
-**For Windows 64-bit**: <a href="/Hephaest/Minesweeper/raw/master/download/Minesweeper_64-bit_Windows_Setup.exe">Download</a>.
+**For Windows 64-bit**: <a href="/download/Minesweeper_64-bit_Windows_Setup.exe">Download</a>.
