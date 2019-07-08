@@ -11,3 +11,5 @@ English | [中文](README_CN.md)
 
 # Download
 **For Windows 64-bit**: [Download here](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_64-bit_Windows_Setup.exe)
+**For MacOS**: [Download here](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_MacOS_Setup.dmg)
+**For Unix/Linux**: [Download here](https://github.com/Hephaest/Minesweeper/raw/master/download/Mine_Unix_SetUp.sh)
