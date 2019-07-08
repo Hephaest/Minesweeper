@@ -6,7 +6,7 @@ Table of Contents
    * [Game Driver](#game-driver)
    * [Library](#library)
    * [User Interface](#user-interface)
-      * [GameMenu](#gamemenu)
+      * [Game Menu](#game-menu)
       * [Game Board](#game-board)
       * [Game Sequares](#game-sequares)
       * [Bombs](#bombs)
@@ -149,7 +149,7 @@ The following UML diagram could help you easier to understand the following clas
 
 <p align="center"><img src ="images/bluejScreenshot.png" width = "600px"></p>
 
-## GameMenu
+## Game Menu
 The `Menu` class provides 4 difficulty options to players: Beginner, Intermediate, Advanced and Custom. Especially for Custom, the program needs the check whether the player's input is valid or not. If the player confirms the option, the progarm starts the timer.
 
 The code is shown as follows:
