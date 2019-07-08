@@ -6,9 +6,9 @@ Table of Contents
    * [Game Driver](#game-driver)
    * [Library](#library)
    * [User Interface](#user-interface)
-      * [Game Menu](#game-menu)
-      * [Game Board](#game-board)
-      * [Game Sequares](#game-sequares)
+      * [Menu](#menu)
+      * [Board](#board)
+      * [Sequares](#sequares)
       * [Bombs](#bombs)
    * [Download](#download)
    
