@@ -73,13 +73,13 @@ import UserInterface.GameBoard;
  */
 public abstract class Bomb
 {
-    /** The GameBoard instance**/
+    /** The GameBoard instance **/
     protected GameBoard board;
 
-    /** The height of this GameBoard instance**/
+    /** The height of this GameBoard instance **/
     protected int boardHeight;
 
-    /** The width of this GameBoard instance**/
+    /** The width of this GameBoard instance **/
     protected int boardWidth;
 
     /**
@@ -149,7 +149,7 @@ The following UML diagram could help you easier to understand relationships betw
 
 <p align="center"><img src ="images/bluejScreenshot.png" width = "600px"></p>
 
-## Game Menu
+## Menu
 The `Menu` class provides 4 difficulty options to players: Beginner, Intermediate, Advanced and Custom. Especially for Custom, the program needs the check whether the player's input is valid or not. If the player confirms the option, the progarm starts the timer.
 
 The code is shown as follows:
@@ -190,7 +190,7 @@ public class Menu extends JFrame implements ActionListener
         subtitle.setBounds(100,10,100,20);
         add(subtitle);
 
-        // Create the "Beginner" radio button
+        // Create the "Beginner" radio button.
         beginner = new JRadioButton("Beginner");
         beginner.setBounds(40,40,150,20);
         add(beginner);
@@ -380,7 +380,7 @@ public class Menu extends JFrame implements ActionListener
     }
 }
 ```
-## Game Board
+## Board
 The `GameBoard` class could create a game window but this window should not be resizeable otherwise its height and width may not satisify game requirements. In addition, the game board should contain multiple squares and each square should own its action listener.
 
 The code is shown as follows:
@@ -422,10 +422,10 @@ public class GameBoard extends JFrame implements ActionListener
 		this.boardWidth = width;
 		this.boardHeight = height;
 
-		// Create game state
+		// Create game state.
 		this.board = new GameSquare[width][height];
 
-		// Set up window
+		// Set up window.
 		setTitle(title);
 		setSize(20 + width * 20,20 + height * 20);
 		setContentPane(boardPanel);
@@ -445,7 +445,7 @@ public class GameBoard extends JFrame implements ActionListener
 			}
 		}
 
-		// make our window visible
+		// make our window visible.
 		setVisible(true);
 
 	}
@@ -473,7 +473,7 @@ public class GameBoard extends JFrame implements ActionListener
 	}
 }
 ```
-## Game Sequares
+## Sequares
 The abstract class `GameSquare` only provides fundamental methods. 
 
 The code is shown as follows:
@@ -485,7 +485,7 @@ import java.net.URL;
 
 /**
  * This class provides a representation of a single game square.
- * The class is abstract, and should be extended to provide domain
+ * The class is abstract, and should be extended to provide domain.
  * specific functionality.
  * @author joe finney
  */
@@ -576,7 +576,7 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 	/** The y co-ordinate of this square. **/
 	private int yLocation;
 
-	/** The y co-ordinate of this square. **/
+	/** The start time of the game. **/
 	private long startTime;
 
 	/**
@@ -594,13 +594,13 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 		xLocation = x;
 		yLocation = y;
 
-		// Initialize attributes
+		// Initialize attributes.
 		thisSquareHasBomb = false;
 		thisSquareHasTraversed = false;
 		guessThisSquareIsBomb = false;
 		startTime = 0;
 
-		// add right mouse listener
+		// add right mouse listener.
 		addMouseListener(this);
 	}
 
@@ -682,7 +682,7 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 		{
 			/*
 			 * If this square contains a bomb, show the bomb image.
-			 * Then display the selection window
+			 * Then display the selection window.
 			 */
 			setImage(SmartSquare.class.getResource("/bombReveal.png"));
 			long costTime = System.currentTimeMillis() - ((SmartSquare) board.getSquareAt(0, 0)).getStartTime();
@@ -774,6 +774,8 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
 ```
 The most important class is `CheckSquare`, which checks the rest of untraversed squares and displays the number of bombs in surrounding the selected one. If the number is 0, the program will check the number of bombs surrounded in the surroundings. The terminated condition is that the target has been traversed or the position of target is out of the boundary. Note that surrounding squares a classified as the eight squares that are horizontally, vertically or diagonally adjacent to the square. 
 
+The success condition is `the total number of squares = the total number of bombs (getTraverse() = true) + the number of squares the user clicked (getTraverse() = true)`. Therefore, this condition can be simplified as the program only needs to traverse all the squares. If each square is traversed, it means that the player wins the game.
+
 The code is shown as follows:
 ```Java
 package UserInterface;
@@ -784,13 +786,13 @@ package UserInterface;
  */
 public class CheckSquare
 {
-    /** The GameBoard instance**/
+    /** The GameBoard instance **/
     private GameBoard board;
 
-    /** The height of this GameBoard instance**/
+    /** The height of this GameBoard instance **/
     private int boardHeight;
 
-    /** The width of this GameBoard instance**/
+    /** The width of this GameBoard instance **/
     private int boardWidth;
 
     private static final int[] distantX = {-1, 0, 1};
@@ -838,10 +840,19 @@ public class CheckSquare
         }
 
         return count == boardHeight * boardWidth;
+// Alternative method.
+//        for (int y = 0; y < boardHeight; y++)
+//        {
+//            for (int x = 0; x < boardWidth; x++)
+//            {
+//                if (!((SmartSquare) board.getSquareAt(x, y)).getTraverse()) return false;
+//            }
+//        }
+//        return true;	
     }
 
     /**
-     * This method reveals all bombs on the board, examine the square where user guesses it has a bomb
+     * This method reveals all bombs on the board, examine the square where user guesses it has a bomb.
      * @param currentX the x co-ordinate of the given square.
      * @param currentY the y co-ordinate of the given square.
      */
@@ -862,8 +873,8 @@ public class CheckSquare
 
     /**
      * This method counts the total number of bombs which surrounds the given square.
-     * If there is no bombs surrounds the square, paint this square as blank then expand its surrounding squares
-     * util find bombs of the surrounding squares are not empty. This method is implemented by recursion algorithm.
+     * If there is no bombs surrounds the square, paint this square as blank then expand its surrounding squares.
+     * until find bombs of the surrounding squares are not empty. This method is implemented by recursion algorithm.
      * @param currentX the x co-ordinate of the given square.
      * @param currentY the y co-ordinate of the given square.
      */
@@ -914,14 +925,14 @@ public class CheckSquare
         else {
             // Paint current square as blank.
             currentObject.setImage(CheckSquare.class.getResource("/0.png"));
-            countBomb(currentX - 1, currentY -1); // Upper left
-            countBomb(currentX, currentY -1); // Above
-            countBomb(currentX + 1, currentY -1); // Upper right
-            countBomb(currentX - 1, currentY); // Left side
-            countBomb(currentX + 1, currentY); // Right side
-            countBomb(currentX - 1, currentY + 1); // Lower left
-            countBomb(currentX, currentY + 1); // Below
-            countBomb(currentX + 1, currentY + 1); // Lower right
+            countBomb(currentX - 1, currentY -1); // Upper left.
+            countBomb(currentX, currentY -1); // Above.
+            countBomb(currentX + 1, currentY -1); // Upper right.
+            countBomb(currentX - 1, currentY); // Left side.
+            countBomb(currentX + 1, currentY); // Right side.
+            countBomb(currentX - 1, currentY + 1); // Lower left.
+            countBomb(currentX, currentY + 1); // Below.
+            countBomb(currentX + 1, currentY + 1); // Lower right.
         }
     }
 }
