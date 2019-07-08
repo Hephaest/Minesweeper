@@ -992,7 +992,7 @@ public class ProduceBombs extends Bomb
 # 下载
 已提供多平台可运行的执行程序，如果您感兴趣可点击下方链接直接下载安装。尽情享受游戏的乐趣叭!
 
-**适用于 Windows 64-bit**: [点击这里下载](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_64-bit_Windows_Setup.exe)
+**适用于 Windows 64 位**: [点击这里下载](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_64-bit_Windows_Setup.exe)
 
 **适用于 MacOS**: [点击这里下载](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_MacOS_Setup.dmg)
 
