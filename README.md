@@ -20,7 +20,6 @@ Table of Contents
 [![LICENSE](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/Hephaest/Minesweeper/blob/master/LICENSE)
 [![JDK](https://img.shields.io/badge/JDK-8u202%20-orange.svg)](https://www.oracle.com/technetwork/java/javase/8u202-relnotes-5209339.html)
 [![Size](https://img.shields.io/badge/Size-54MB-critical.svg)](https://github.com/Hephaest/Minesweeper/raw/master/download/Minesweeper_64-bit_Windows_Setup.exe)
-[![Dependencies](https://img.shields.io/badge/Dependencies-up%20to%20date-green.svg)](https://github.com/Hephaest/Minesweeper/tree/master/src)
 
 English | [中文](README_CN.md)
 
